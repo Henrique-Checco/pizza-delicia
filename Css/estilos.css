@@ -1,0 +1,102 @@
+body {
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    background-color: red;
+    color: white;
+    justify-content: center;
+    text-shadow: 1px 1px 2px black ;
+}
+
+nav {
+    background-color: rgb(30, 184, 30);
+    text-align: center;
+    padding: 2px 0px 5px 0px;
+}
+
+nav a {
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: yellow;
+    font-weight: bold;
+}
+
+#container {
+    padding: 50px 100px 50px 100px;
+    display: flex;
+}
+
+#texto {
+    padding-left: 25px;
+}
+
+h2 {
+    text-align: center;
+}
+
+#imagens {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: yellow;
+}
+
+#tabela {
+    margin-top: 40px;
+}
+
+th {
+    background-color: aquamarine;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #dceec7;
+}
+
+.negrito {
+    font-weight: bold;
+}
+
+#dados-contatos a {
+    text-decoration: none;
+    color: #046d8b;
+}
+
+#dados-contatos a:hover {
+    font-weight: bold;
+    color: chartreuse;
+}
+
+table {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contato {
+    padding: 50px 100px 50px 100px;
+    text-align: center;
+}
